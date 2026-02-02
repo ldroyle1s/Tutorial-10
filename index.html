@@ -17,14 +17,17 @@
    <meta charset="utf-8" />
    <meta name="viewport" content="width=device-width, initial-scale=1" />
    <title>Lyman Hall Theater in August</title>
-   <link href="lht_base.css" rel="stylesheet" />
-   <link href="lht_layout.css" rel="stylesheet" /> 
+   <link href="./css/lht_base.css" rel="stylesheet" />
+   <link href="./css/lht_layout.css" rel="stylesheet" /> 
+   <link rel="stylesheet" href="./css/lht_calendar.css">
+   <script src="./js/lht_events.js" defer></script>
+   <script src="./js/lht_calendar.js" defer></script>
 </head>
 
 <body>
    <header>
-      <img src="lht_logo.png" alt="The Lyman Hall Theater" id="logoimg" />
-      <nav> <a id="navicon" href="#"><img src="lht_navicon.png" alt="" /></a>
+      <img src="./images/lht_logo.png" alt="The Lyman Hall Theater" id="logoimg" />
+      <nav> <a id="navicon" href="#"><img src="./images/lht_navicon.png" alt="" /></a>
          <ul>
             <li><a href="#">home</a></li>
             <li><a href="#">events</a></li>
@@ -66,6 +69,8 @@
          </p>       
       </section>
    </article>  
+
+   <div id="calendar"></div>
       
    <footer>
       <nav>
